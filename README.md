@@ -24,4 +24,4 @@ An interactive trivia game for baby showers where guests can test their knowledg
 ## Customization
 To customize the questions and answers:
 1. Edit the questions in `baby_shower_trivia.html`
-2. Update the correct answers in `script.js` in the `correctAnswers` object 
+2. Update the correct answers in `script.js` in the `correctAnswers` object # baby_shower_repo
