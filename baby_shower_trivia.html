@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Shower Trivia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="slide" id="title">
+            <h1>Baby Shower Trivia</h1>
+            <p>Let's see how well you know the parents-to-be!</p>
+            <button onclick="nextSlide()">Start</button>
+        </div>
+
+        <div class="slide" id="signup">
+            <h2>Please Sign Up</h2>
+            <div class="signup-form">
+                <input type="text" id="firstName" placeholder="First Name" required>
+                <input type="text" id="lastName" placeholder="Last Name" required>
+                <button onclick="startGame()">Begin Game</button>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>Where did the parents-to-be first meet?</h2>
+            <div class="options">
+                <button>a) School</button>
+                <button>b) Work</button>
+                <button>c) Online</button>
+                <button>d) At a coffee shop</button>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>What is the couple's favorite date night activity?</h2>
+            <div class="options">
+                <button>a) Watching movies</button>
+                <button>b) Cooking together</button>
+                <button>c) Going out for dinner</button>
+                <button>d) Hiking</button>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>What was the first trip the parents-to-be took together?</h2>
+            <div class="options">
+                <button>a) A beach vacation</button>
+                <button>b) Camping trip</button>
+                <button>c) A road trip</button>
+                <button>d) International</button>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>What is one thing the mom-to-be craved during pregnancy?</h2>
+            <div class="options">
+                <button>a) Chocolate</button>
+                <button>b) Pickles</button>
+                <button>c) Ice Cream</button>
+                <button>d) Hot Sauce</button>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>What personality trait are the parents hoping their baby inherits from Mom?</h2>
+            <div class="options">
+                <textarea placeholder="Write your answer here..."></textarea>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>What personality trait are they hoping their baby inherits from Dad?</h2>
+            <div class="options">
+                <textarea placeholder="Write your answer here..."></textarea>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>What childhood nickname did the dad-to-be have?</h2>
+            <div class="options">
+                <button>a) Champ</button>
+                <button>b) Buddy</button>
+                <button>c) [Custom nickname]</button>
+                <button>d) None... He was too cool for nicknames</button>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>What sport do the parents hope their baby will play?</h2>
+            <div class="options">
+                <button>a) Soccer</button>
+                <button>b) Basketball</button>
+                <button>c) Tennis</button>
+                <button>d) None, they're focused on academics</button>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>What was the parents-to-be's wedding song?</h2>
+            <div class="options">
+                <button>a) "Perfect" by Ed Sheeran</button>
+                <button>b) "At Last" by Etta James</button>
+                <button>c) "All of Me" by John Legend</button>
+                <button>d) "I Wanna Dance with Somebody" by Whitney Houston</button>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>Which parent is predicted to spoil the baby the most?</h2>
+            <div class="options">
+                <button>a) Mom</button>
+                <button>b) Dad</button>
+                <button>c) Both equally!</button>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>Who's more likely to wake up for nighttime baby feedings?</h2>
+            <div class="options">
+                <button>a) Mom</button>
+                <button>b) Dad</button>
+                <button>c) They'll share the responsibility equally</button>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>What is the couple's dream vacation spot?</h2>
+            <div class="options">
+                <button>a) Paris</button>
+                <button>b) The Maldives</button>
+                <button>c) Disney World</button>
+                <button>d) Tokyo</button>
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>What is the one baby item the couple is most excited about?</h2>
+            <div class="options">
+                <button>a) Crib</button>
+                <button>b) Cute baby clothes</button>
+                <button>c) Stroller</button>
+                <button>d) High-tech baby monitor</button>
+            </div>
+        </div>
+
+        <div class="slide" id="results">
+            <h2>Results</h2>
+            <div class="score-display">
+                <h3 id="playerName"></h3>
+                <p>Your Score: <span id="finalScore">0</span>/<span id="totalQuestions">0</span></p>
+                <div id="answerSummary"></div>
+            </div>
+            <button onclick="restartGame()">Play Again</button>
+        </div>
+
+        <div class="navigation">
+            <button onclick="previousSlide()">Previous</button>
+            <button onclick="nextSlide()">Next</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
