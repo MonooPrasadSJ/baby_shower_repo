@@ -4,19 +4,19 @@ let playerName = '';
 let score = 0;
 let answers = [];
 
-// Correct answers (you'll need to update these with the actual correct answers)
+// Correct answers
 const correctAnswers = {
-    2: "a) School", // Update with correct answer
-    3: "b) Cooking together", // Update with correct answer
-    4: "c) A road trip", // Update with correct answer
-    5: "a) Chocolate", // Update with correct answer
-    8: "a) Champ", // Update with correct answer
-    9: "a) Soccer", // Update with correct answer
-    10: "a) \"Perfect\" by Ed Sheeran", // Update with correct answer
-    11: "a) Mom", // Update with correct answer
-    12: "c) They'll share the responsibility equally", // Update with correct answer
-    13: "a) Paris", // Update with correct answer
-    14: "a) Crib" // Update with correct answer
+    2: "a) School", // Where did the parents-to-be first meet?
+    3: "a) Watching movies", // What is the couple's favorite date night activity?
+    4: "a) A beach vacation", // What was the first trip the parents-to-be took together?
+    5: "c) Milk", // What is one thing the mom-to-be craved during pregnancy?
+    8: "d) all of the above", // What childhood nickname did the dad-to-be have?
+    9: "a) Soccer", // What sport do the parents hope their baby will play?
+    10: "d) \"I Wanna Dance with Somebody\" by Whitney Houston", // What was the parents-to-be's wedding song?
+    11: "c) Both equally!", // Which parent is predicted to spoil the baby the most?
+    12: "c) They'll share the responsibility equally", // Who's more likely to wake up for nighttime baby feedings?
+    13: "b) The Maldives", // What is the couple's dream vacation spot?
+    14: "a) Crib" // What is the one baby item the couple is most excited about?
 };
 
 // Show the first slide initially
