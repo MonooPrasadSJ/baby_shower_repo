@@ -11,12 +11,12 @@ const correctAnswers = {
     4: "a) A beach vacation", // What was the first trip the parents-to-be took together?
     5: "c) Milk", // What is one thing the mom-to-be craved during pregnancy?
     8: "d) all of the above", // What childhood nickname did the dad-to-be have?
-    9: "a) Soccer", // What sport do the parents hope their baby will play?
-    10: "d) \"I Wanna Dance with Somebody\" by Whitney Houston", // What was the parents-to-be's wedding song?
+    9: "a) Tennis", // What sport do the parents hope their baby will play?
+    10: "d) \"I'm Just Ken\" by Ryan Gosling", // What was the parents-to-be's wedding song?
     11: "c) Both equally!", // Which parent is predicted to spoil the baby the most?
     12: "c) They'll share the responsibility equally", // Who's more likely to wake up for nighttime baby feedings?
-    13: "b) The Maldives", // What is the couple's dream vacation spot?
-    14: "a) Crib" // What is the one baby item the couple is most excited about?
+    13: "a) Paris", // What is the couple's dream vacation spot?
+    14: "b) Cute baby clothes" // What is the one baby item the couple is most excited about?
 };
 
 // Show the first slide initially
